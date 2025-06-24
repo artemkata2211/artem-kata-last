@@ -1,11 +1,12 @@
-import '../js/script';
-import '../js/button';
-import '../js/swiper-two';
-import '../js/button-two';
-import '../js/swiper3';
-import '../js/burger';
-import '../js/feedback';
-import '../js/modal';
+import './script';
+import './button';
+import './swiper-two';
+import './button-two';
+import './swiper3';
+import './burger';
+import './feedback';
+import './modal';
+import '../style.css'
 
 
 
