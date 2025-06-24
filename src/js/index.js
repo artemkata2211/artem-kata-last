@@ -6,7 +6,7 @@ import './swiper3';
 import './burger';
 import './feedback';
 import './modal';
-import '../style.css'
+import '../scss/style.scss';
 
 
 
