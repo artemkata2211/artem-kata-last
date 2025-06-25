@@ -92,10 +92,9 @@ module.exports = {
 
     // Копируем картинки
     new CopyWebpackPlugin([
-      {
-        from: './src/img',
-        to: 'img',
-      },
+      
+        { from: 'src/img', to: 'img' }
+      
     ])
   ],
 };
