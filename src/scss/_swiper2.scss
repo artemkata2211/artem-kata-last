@@ -15,7 +15,7 @@ div .swiper-two {
       height: 160px;
       padding: 10px;
       position: relative;
-      justify-content: end;
+      justify-content: flex-end;
       align-items: end;
       border: 1px solid #c0c0c0;
       border-radius: 5px;
@@ -24,7 +24,7 @@ div .swiper-two {
             display: none;
         }
         @media (min-width: 1366px) {
-          display:flex;
+          display: flex;
         }
        }
     }
