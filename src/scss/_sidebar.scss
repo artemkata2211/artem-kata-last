@@ -12,8 +12,8 @@
        }
        &.show {
        transform: translateX(0);
-       transition: all 0.2s linear; 
-       box-shadow: 2px 1px 2px 10000px rgb(120, 120, 120, 0.5);
+       transition: all 0.2s linear;
+       box-shadow: 2px 1px 2px 10000px rgba(120, 120, 120, 0.5);
    }
    }
    .div {
@@ -23,7 +23,7 @@
        gap: 15px;
        justify-content: center;
        align-items: center;
-       margin: 10px;    
+       margin: 10px;
        }
        &__burger {
        background: url('../img/burger.svg') no-repeat center;
@@ -34,7 +34,7 @@
         border-radius: 50%;
         @media (min-width: 1366px) {
          display: none;
-        } 
+        }
           &:hover {
           transform: scale(1.05) rotate(360deg);
           transition: all 0.7s ease;
@@ -45,9 +45,9 @@
         justify-content: center;
         align-items: center;
         margin-left: auto;
-        margin-right: 10px;   
+        margin-right: 10px;
        }
-       &__search {  
+       &__search {
            background: url('../img/search.svg') no-repeat center;
            width: 45px;
            height: 45px;
@@ -60,7 +60,7 @@
            }
        }
    }
-   .sadebar__block { 
+   .sadebar__block {
        margin-top: 15px;
    }
    .block {
@@ -89,7 +89,7 @@
         opacity: 0.5;
         transform: scale(1.05);
       }
-     } 
+     }
    }
    .contact {
      margin-top: 10px;
@@ -114,11 +114,11 @@
      height: 45px;
      border: 2px solid rgba(255, 255, 255, 1);
      transition: transform 0.7s ease;
-     border-radius: 50%; 
+     border-radius: 50%;
      &:hover {
      transform: scale(1.05) rotate(360deg);
      transition: all 0.7s ease;
-      } 
+      }
      }
      &__chat {
         background: url('../img/chat.svg') no-repeat center;
@@ -138,7 +138,7 @@
        height: 45px;
        border: 2px solid rgba(255, 255, 255, 1);
        transition: transform 0.7s ease;
-       border-radius: 50%; 
+       border-radius: 50%;
      &:hover {
        transform: scale(1.05) rotate(360deg);
        transition: all 0.7s ease;
@@ -150,7 +150,7 @@
      margin-top: 10px;
      margin-left: 15px;
      text-decoration: none;
-     color: rgba(27, 28, 33, 1); 
+     color: rgba(27, 28, 33, 1);
      }
       &__namber {
      position: relative;
@@ -160,8 +160,8 @@
      margin-top: 10px;
      margin-left: 15px;
      text-decoration: none;
-     color: rgba(27, 28, 33, 1); 
-     &:hover::after {  
+     color: rgba(27, 28, 33, 1);
+     &:hover::after {
        transition: all 0.4s ease-in;
        transform: scale(1);
        opacity: 1;
@@ -174,24 +174,24 @@
      content: "";
      transition: all 0.4s ease-in;
      opacity: 0;
-     transform: scale(1.5);  
+     transform: scale(1.5);
      }
      }
      &__langs {
         display: flex;
      gap: 10px;
      margin-left: 15px;
-     margin-top: 40px; 
+     margin-top: 40px;
      }
      &__lang {
        border: 2px solid rgba(255, 255, 255, 1);
      background-color: rgba(255, 255, 255, 1);
      display: block;
-     font-family: "TTLakesRegular"; 
+     font-family: "TTLakesRegular";
      &:hover {
        opacity: 0.5;
        transform: scale(1.05);
-     } 
+     }
      &:focus {
       opacity: 0.5;
      }
